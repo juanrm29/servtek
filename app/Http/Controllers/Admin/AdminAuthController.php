@@ -11,4 +11,8 @@ class AdminAuthController extends Controller
     function login() : View {
         return view('admin.auth.login');
     }
+
+    function PasswordRequest() : View {
+        return view('admin.auth.forgot-password');
+    }
 }
